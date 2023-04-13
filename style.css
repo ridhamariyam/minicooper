@@ -1,0 +1,194 @@
+*{
+    padding: 0px;
+margin: 0px;
+overflow-x: hidden;}
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    width: 100%;
+}
+.nav {
+    position: relative;
+    margin-left: 80px;
+    font-size: small;
+}
+.navbar{
+    padding-left: 30%;
+}
+.slidimg {
+   position: absolute;
+   z-index: 10px;
+   top: 150px
+}
+.texbut{
+    margin-left:  12vw;
+    font-family: 'MINIBold','Georgia',serif;
+
+}
+.textt{
+    color: white;
+    line-height: 200px;
+
+}
+.textt h1{
+    font-size: 6vw;
+}
+.textt h2{
+    font-size: 4vw;
+}
+
+.but button{
+    border-color:rgba(255, 255, 255, 0); 
+    border-width: 2px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 25%; 
+    font-size: 2vw;
+}
+.but button:hover{
+    color: white;
+    background-color: black;
+    border-color: white;
+    
+}
+.logoyellow{
+    width: 100%;
+    height: 22vh;
+    background-color: rgb(213, 212, 208);
+}
+/* .roel button{
+    
+    margin-left: 300px;
+
+} */
+.btn {
+    background-color: rgb(3, 108, 157) ;
+    border-color:  rgb(3, 108, 157); 
+    color: rgb(255, 255, 255);
+    font-family: 'MINIBold','Georgia',serif;
+    font-weight:bold;
+    width: 450px;height: 50px; font-size: 25px;
+}
+.btn:hover{
+    border:  3px solid  rgb(3, 108, 157);
+    background-color: #ffff;
+    color: rgb(0, 0, 0);
+
+}
+
+.slidoneimg{
+margin-top: 90px;
+
+}
+.row2{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-color: brown;
+}
+.row2 h1{
+    padding-top: 3px;
+}
+.imgico{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    margin-top: 30px;
+
+}
+.row3{
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+.row3 button{
+    margin-top: 10px;
+   border-radius: 5px;
+   
+   
+    background-color: rgb(77, 6, 6);
+    border:10px ;
+}
+.row3 button:hover{
+    background-color: rgb(6, 6, 6);
+}
+.col-12{
+    font-family: 'MINIBold','Georgia',serif;
+}
+.lastnav ul{
+    color: black;
+}
+.lastnav li{
+    display: inline-block;
+    margin-left: 120px;
+    color: black;
+    text-decoration: underline;
+
+
+}
+.lastnav li:hover{
+    display: inline-block;
+    margin-left: 120px;
+    color: darkred;
+
+
+}
+.lastnav{
+margin-top: -30px;
+
+
+}
+.minii{
+    margin-top:120px ;
+}
+.logoyellow{
+    margin-top: 60px;
+}
+.imgfooter img{
+    width: 150px;
+    display:flex;
+    padding-top: 30px; 
+}
+.imgfooter{
+    display: flex;
+    justify-content: center
+}
+.input {
+    height: 45px;
+    background-color: rgb(233, 233, 235);
+}
+
+.input-box {
+    height: 45px;
+    background-color: rgb(233, 233, 235);
+    border: none;
+    width: 100%;
+}
+
+.input-box::placeholder {
+    padding-left: 10px;
+    font-size: 15px;
+}
+.input-box-select {
+    height: 45px;
+    background-color: rgb(233, 233, 235);
+    border: none;
+    width: 100%;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+#sign-up-6 {
+    background-color: #032933;
+    color: white;
+    width: 170px;
+    
+}
+.imgicocol-sm-12align-center{
+    color: black;
+
+}
